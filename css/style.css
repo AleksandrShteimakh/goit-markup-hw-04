@@ -203,6 +203,7 @@ button {
 }
 .btn:hover {
   color: var(--primery-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* main */
@@ -453,6 +454,10 @@ button {
 
 .client-box-item:hover {
   border: 1px solid var(--acent-color);
+}
+
+.client-box-item:hover .client-page {
+  fill: var(--acent-color);
 }
 
 .client-item {
